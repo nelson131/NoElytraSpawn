@@ -1,0 +1,6 @@
+name: NoElytraSpawn
+version: 1.0.0
+main: me.nelson131.nes.NoElytraSpawn
+api-version: 1.19
+description: delete elytras chunk spawn
+author: nelson131
