@@ -16,7 +16,7 @@ public class InventoryClickListener implements Listener {
         Inventory inventory = event.getClickedInventory();
         Boolean click = plugin.getConfig().getBoolean("disable-click-inventory");
         if(click == true){
-            if(inventory.contains(Material.ELYTRA)){
+            if(inventory.contains(Material.ELYTRA) || inventory != null){
                 if(itemStack.getType() == Material.ELYTRA){
                     itemStack.setAmount(0);
 
